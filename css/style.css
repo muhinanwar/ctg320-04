@@ -1,0 +1,362 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+
+/* ------------- */
+/* Header Starts */
+/* ------------- */
+
+
+.headerarea {
+    
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+
+
+}
+
+.logo{
+    width: 20%;
+    float: left;
+    height: 100px;
+
+}
+
+.logo img {
+    width: 70%;
+    height: auto;
+    padding-left: 25%;
+    padding-top: 10px;
+}
+
+.menuarea {
+    background-color: indigo;
+    width: 50%;
+    height: 100px;
+    padding-left: 50px;
+    float: left;
+}
+
+.menuarea ul{
+    list-style: none;
+}
+
+.menuarea ul li {
+    display: inline-block;
+    margin: 40px 20px;
+}
+
+.menuarea ul li a{
+	text-decoration: none;
+	color:white;
+	font-size: 17px;
+	text-transform: uppercase;
+    padding: 4px;
+}
+
+.socialmedia{
+
+    width: 25%;
+    height: 100px;
+    color: white;
+    background-color: indigo ;
+    float: left;
+
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 40px 10px;
+
+}
+
+ ul li a{ 
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 6px;
+}
+
+
+
+
+
+.fa.fa-facebook-square{
+
+    transition: 0.5s;
+}
+.fa.fa-facebook-square:hover{
+
+    transform: scale(2);
+}
+.fa.fa-twitter-square{
+    transition: 0.5s ease;
+}
+.fa.fa-twitter-square:hover{
+    transform: scale(2);
+}
+
+.fa.fa-linkedin{
+    transition: 0.5s ease;
+}
+.fa.fa-linkedin:hover{
+    transform: scale(2);
+}
+.fa.fa-google-plus-square{
+    transition: 0.5s ease;
+}
+.fa.fa-google-plus-square:hover{
+    transform: scale(2);
+}
+.fa.fa-sign-in{
+    transition: 0.5s ease;
+}
+.fa.fa-sign-in:hover{
+    transform: scale(2);
+}
+
+
+
+
+
+
+/* CSS for section */
+
+.contenttop{
+    
+    width: 100%;
+    float: left;
+    padding: 100px 0;
+    background-image: url(../img/section.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+ .contentbox{
+
+    background: rgba(0,0,0,0.8);
+    width: 400px;
+    padding: 40px;
+    text-align: center;
+
+}
+.contentbox h2{
+
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 0;
+    color:red;
+}
+.contentbox p{
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+}
+.contentbox a{
+    display: inline-block;
+    padding: 7px 12px;
+    text-decoration: none;
+    color: white;
+    background:indigo;
+    text-transform: uppercase;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+/* Service CSS */
+
+.services{
+	width: 100%;
+	float: left;
+	padding: 30px 0;
+}
+.single-services{
+	width:23%;
+	float: left;
+	margin-right:2%;
+	text-align: center;
+}
+.single-services p{
+	text-align:left;
+}
+.single-services a{
+	background: indigo;
+	color: white;
+	text-decoration: none;
+	padding: 10px 10px;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.fa.fa-check{
+	color: white;
+	background:#6977D5;
+	height: 20px;
+	width: 20px;
+	font-size: 20px;
+	border: 1px solid #6977D5;
+	border-radius: 50%;
+	padding:15px;
+}
+
+.fa.fa-map-marker{
+	color: white;
+	background:#01968C;
+	height: 20px;
+	width:20px;
+	font-size: 20px;
+	border: 1px solid #01968C;
+	border-radius: 50%;
+	padding:15px;
+}
+
+.fa.fa-money{
+	color: white;
+	background:#48B246;
+	height:20px;
+	width: 20px;
+	font-size: 20px;
+	border: 1px solid #48B246;
+	border-radius: 50%;
+	padding:15px;
+}
+
+.fa.fa-user-plus{
+	color: white;
+	background:#93E863;
+	height: 20px;
+	width: 20px;
+	font-size: 20px;
+	border: 1px solid #93E863;
+	border-radius: 50%;
+	padding:15px;
+}
+
+
+/* CSS for money */
+.money-section{
+	padding: 30px 0;
+	width: 100%;
+	float: left;
+}
+.money-left{
+	float: left;
+	width: 30%;
+	margin-right: 15%;
+	background: #B8CCD5;
+	padding:3%;
+	margin-left:6%;
+}
+.money-right{
+	float: left;
+	width: 30%;
+	background: #B8CCD5;
+	padding: 3%;
+}
+.money-section h2{
+	margin-bottom: 5px;
+    text-align: center;
+}
+.money-section a{
+	background: indigo;
+	color: white;
+	padding: 7px 12px;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+    margin-top: 5px;
+    margin-left: 70px;
+}
+.money-list i{
+	background: black;
+	color: black;
+	font-size: 12px;
+	margin-right: 8px;
+	height: 12px;
+	width: 12px;
+    border-radius: 50%;
+}
+
+
+/*Ratings*/
+.rating{
+
+    padding: 50px 0px;
+    width: 100%;
+    float: left;
+}
+
+.star {
+ text-align: center;
+  font-size: 25px;
+
+}
+.fa.fa-star{
+ 
+color:indigo
+}
+
+.star ul{
+  
+  list-style: none;
+      padding: 10px;
+}
+
+.star ul li{
+
+display: inline-block;
+}
+
+.fa.fa-star-o{
+  
+  color: white;
+  background-color: #16da16;
+  padding: 10px;
+  margin: 0px; 
+}
+
+.fa.fa-star-half-o{
+
+  background-color:#00000082;;
+  color: #ecf5ec;
+  padding: 10px;
+
+
+}
+
+.closing{
+	width: 100%;
+	float: left;
+	padding: 25px 0;
+	background: indigo;
+	color: white;
+}
+.closing p{
+	margin: 0;
+}
+.closingleft{
+	float: left;
+	width: 40%;
+	margin:0 5%;
+	text-align: right;
+}
+.closingright{
+	float: left;
+	width: 40%;
+	text-align: left;
+}
